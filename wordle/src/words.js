@@ -9,7 +9,7 @@ export const WORDS = [
 ]
 
 export const WORD_LENGTH = 5
-export const MAX_GUESSES = 5
+export const MAX_GUESSES = 6
 
 export function pickRandomWord() {
   return WORDS[Math.floor(Math.random() * WORDS.length)]
